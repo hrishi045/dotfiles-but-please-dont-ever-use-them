@@ -26,6 +26,8 @@ function paclist() {
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export PYENV_ROOT="$HOME/.pyenv"
+
 # Path
 PATH="$PATH:$HOME/.cargo/bin"
 PATH="$PATH:$HOME/.local/bin"
@@ -40,6 +42,7 @@ PATH="$PATH:$HOME/Android/Sdk/build-tools/30.0.2"
 #PATH="$PATH:$(stack path --bin-path 2> /dev/null):$PATH"
 #PATH=$(stack path --bin-path 2> /dev/null)
 PATH="/home/hrishi/.stack/snapshots/x86_64-linux-tinfo6/efffecca56fd5a794090251093b3975747dc0dd1566420a63e4dc914d35a21d0/8.8.4/bin:/home/hrishi/.stack/compiler-tools/x86_64-linux-tinfo6/ghc-8.8.4/bin:/home/hrishi/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/bin:$PATH"
+PATH="$PYENV_ROOT/bin:$PATH"
 export PATH
 
 eval "$(pyenv init -)"

@@ -54,6 +54,8 @@ Plug 'vim-scripts/SingleCompile'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'voldikss/vim-floaterm'
+
 
 " Language specific
 Plug 'HerringtonDarkholme/yats.vim'

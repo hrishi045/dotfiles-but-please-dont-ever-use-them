@@ -38,16 +38,21 @@ PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
 PATH="$PATH:$HOME/.emacs.d/bin"
 PATH="$PATH:$HOME/.config/composer/vendor/bin"
 PATH="$PATH:$HOME/.deno/bin"
+PATH="$PATH:$HOME/prog/android-studio/bin"
 PATH="$PATH:$HOME/Android/Sdk/build-tools/30.0.2"
+PATH="$PATH:$HOME/Android/Sdk/platform-tools"
 #PATH="$PATH:$(stack path --bin-path 2> /dev/null):$PATH"
 #PATH=$(stack path --bin-path 2> /dev/null)
 PATH="/home/hrishi/.stack/snapshots/x86_64-linux-tinfo6/efffecca56fd5a794090251093b3975747dc0dd1566420a63e4dc914d35a21d0/8.8.4/bin:/home/hrishi/.stack/compiler-tools/x86_64-linux-tinfo6/ghc-8.8.4/bin:/home/hrishi/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/bin:$PATH"
 PATH="$PYENV_ROOT/bin:$PATH"
+PATH="$PATH:$HOME/.dotnet/tools"
 export PATH
 
 eval "$(pyenv init -)"
 
 # Vars
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export CHROME_EXECUTABLE=google-chrome-stable
 export GEM_HOME=$HOME/.gem
 export EDITOR="nvim"
 export BROWSER="chromium"

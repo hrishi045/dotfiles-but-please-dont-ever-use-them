@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Hacking Anti User $1"
+echo "Hacking...."
+echo "..."
+echo "..."
+echo "..."
+echo "..."
+echo "..."
+echo "..."
+echo "Hacked successfully"

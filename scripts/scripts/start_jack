@@ -1,0 +1,3 @@
+#!/bin/sh
+
+jackd -R -d alsa -d hw:1 --period 4096
